@@ -1,6 +1,5 @@
 '''
 (1)=> Write a program to swap two numbers without taking a temporary variable.
-
 '''
 
 a=int(input("Enter the value of a-> "))
