@@ -1,28 +1,13 @@
-#(13)=> Write a program to implement multiple inheritance using two base classes.
-
-class Father:
-    
-    def height(self):
-
-        print("Heigh is 6.0 foot")
+'''
+(3)=> Write a program to import os moudle and to print the current working 
+directory and return a list of all module function.
+'''
 
 
-class Mother:
+import os
 
-    def complexion(self):
+current = os.getcwd()
 
-        print("Complexion is Fair")
+print("Current Directory=>", current)
 
-
-class Child(Father,Mother):
-
-    pass
-
-
-print("Child Inherited Qualities:")
-c=Child()
-
-c.height()
-
-c.complexion()
-
+print(dir(os))
