@@ -33,7 +33,7 @@ else:
 
 a= mydb.cursor()
 
-b= a.execute("select * from employee")
+a.execute("select * from employee")
 
 result = a.fetchall()
 
